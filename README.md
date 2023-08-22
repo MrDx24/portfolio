@@ -1,27 +1,21 @@
 # Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+This my web portfolio.
 
-## Development server
+👋 Hello! I'm Deep Patadiya, a passionate Full Stack Web Developer with a knack for turning ideas into user-friendly and visually appealing web applications. My journey in the tech world has been filled with diverse experiences that have honed my skills and ignited my curiosity.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+🌐 My professional foundation was laid as a Techno Functional Consultant, allowing me to fine-tune my ability to understand client needs, offer strategic solutions, and work harmoniously within teams. I have a keen aptitude for grasping intricate concepts, a skillset enhanced by my involvement in Oracle Transportation Management (OTM) projects. 
 
-## Code scaffolding
+💡 Through various projects, I've honed my skills in frontend and backend technologies, such as HTML, CSS, JavaScript, Angular, Flask, and the MEAN Stack. These projects encompass diverse domains, highlighting my proficiency in creating user-friendly interfaces and robust backend systems. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+📚 My academic journey includes a Bachelor's degree in Computer Engineering, complemented by a Diploma in the same field. I'm well-versed in programming languages like C/C++, Java, and have gained hands-on experience with databases including MySQL and Mongo DB. 
 
-## Build
+🚀 Beyond the world of coding, I find delight in cricket, indoor games, and delving into the intriguing realm of interstellar space.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+🤝 Let's connect and explore possibilities. I'm always enthusiastic about contributing my skills to innovative ventures and collaborating with fellow professionals. 
 
-## Running unit tests
+👍Feel free to reach out and let's discuss how our paths can align. 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+LinkedIn: www.linkedin.com/in/deep-patadiya-mrdx24 
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+GitHub: https://github.com/MrDx24
