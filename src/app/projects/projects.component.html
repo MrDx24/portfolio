@@ -1,0 +1,55 @@
+<div class="container_fluid main">
+  <div class="row inner_main">
+    <div class="title col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+      <div class="title_name col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 reveal__content">
+        Projects
+      </div>
+
+    </div>
+    <div class="content col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12 reveal__content1">
+      <div class="accordion" id="accordionExample">
+        <div *ngFor="let p of project" class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" attr.data-bs-target="#{{p.project_id}}" aria-expanded="true" attr.aria-controls="{{p.project_id}}">
+              <span class="reveal__content">
+                <span style="font-size: 2rem; color: #b3ff00;">0{{ p.project_id }}</span>
+                &nbsp;
+                <span style="font-size: 1.2rem; color: white;">{{ p.project_name }}</span>
+              </span>
+            </button>
+          </h2>
+          <div [id]="p.project_id" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
+                <ul>
+                  <li>{{ p.project_desp.line1 }}</li>
+                  <li>{{ p.project_desp.line2 }}</li>
+                  <li>{{ p.project_desp.line3 }}</li>
+                  <li *ngIf="p.project_id==1">
+                    Links :
+                    <a href="https://elegancepf.netlify.app/portfolio" target="_blank" rel="noopener noreferrer">
+                      Main link
+                      <span class="material-symbols-outlined arw">
+                        link
+                      </span>
+                    </a>,
+                    <a href="https://elegancepf.netlify.app/admin" target="_blank" rel="noopener noreferrer">
+                      Admin link
+                      <span class="material-symbols-outlined arw">
+                        link
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
+                <img class="img" src="../../assets/images/{{p.project_id}}.svg" alt="test" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

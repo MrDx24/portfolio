@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap');
+
+.linebr {
+  border: 1px solid white;
+}
+.main {
+  background-color: #181818;
+  width: 100%;
+  min-height: 100vh;
+  max-height: max-content;
+  padding: 0;
+  margin: 0;
+}
+
+.row.inner_main {
+  display: flex;
+  --bs-gutter-x : 0rem;
+  height: 100%;
+  padding: 2rem;
+  color: #fff;
+  align-items: center;;
+  justify-content: center;
+}
+
+.content  {
+  color: #fff;
+  /* font-family: 'Montserrat', sans-serif; */
+  margin-top: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+
+.title {
+  display: flex;
+  --bs-gutter-x : 0rem;
+  height: 100%;
+  margin-top: 50px;
+  padding: 1rem !important;
+  color: #fff;
+  align-items: center;;
+  justify-content: center;
+}
+
+.title_name {
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+}
+
+.title-nav {
+  display: flex;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  /* font-size: 2rem; */
+}
+
+
+/* .carousel-inner {
+  box-shadow: 0px 0px 2px 2px white !important;
+} */
+
+.carousel-item {
+  /* display: inline-flex; */
+  background-color: #181818;
+}
+
+.project_details {
+  /* //display: flex; */
+  padding: 10px;
+  /* background-color: aqua;
+  background-image: url('../../assets/images/p1.svg'); */
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h2 span {
+  font-size: 1.5rem;
+  color: #b3ff00;
+}
+
+ul {
+  font-size: 1.2rem;
+}
+
+
+
+.accordion {
+  --bs-accordion-bg: #111111 !important;
+  --bs-accordion-active-bg: #272727;
+  --bs-accordion-border-color: transparent;
+  --bs-accordion-btn-focus-border-color: #b3ff00;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.1rem #b3ff00;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.accordion-item:hover .accordion-button{
+  background: #b3ff003a;
+}
+
+.accordion-button::after {
+  filter: invert(1);
+}
+
+.accordion-button {
+  color: white;
+
+}
+
+.accordion-body {
+  color: white;
+  display: flex;
+  background: #272727;
+}
+
+.img{
+  width:500px;
+  padding-left: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #b3ff00;
+  font-weight: 700;
+}
+.arw {
+  display: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:hover .arw {
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+  animation: arwrt 0.5s ease-in-out forwards;
+}
+
+@keyframes arwrt {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(-45deg);
+  }
+}
+
+.reveal__content {
+  transform: translateY(100%);
+  animation: reveal 1.7s cubic-bezier(1, 0, 0.3, 0.9) forwards;
+}
+
+@keyframes reveal {
+  from {
+    transform: translateY(100%); }
+  to {
+    transform: translateY(0); }
+}
+
+.reveal__content1 {
+  transform: translateY(150%);
+  animation: reveal 1.7s cubic-bezier(1, 0, 0.3, 0.9) forwards;
+  animation-delay: 1s;
+}
+
+@keyframes reveal {
+  from {
+    transform: translateY(150%); }
+  to {
+    transform: translateY(0); }
+}
+
+.accordion-button>.reveal__content {
+  animation-delay: 1.2s;
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 0){
+  .accordion-body {
+    flex-direction: column-reverse;
+  }
+  .img {
+    width: 250px;
+    margin-bottom: 2rem
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px){
+  .accordion-body {
+    flex-direction: column-reverse;
+  }
+  .img {
+    width: 250px;
+    margin-bottom: 2rem
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px){
+  .accordion-body {
+    flex-direction: row;
+  }
+  .img {
+    width: 350px;
+    margin-bottom: 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px){
+  .accordion-body {
+    flex-direction: row;
+  }
+  .img {
+    width: 400px;
+    margin-bottom: 0;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px){
+  .accordion-body {
+    flex-direction: row;
+  }
+  .img {
+    width: 500px;
+    margin-bottom: 0;
+  }
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
+

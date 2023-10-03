@@ -1,1 +1,72 @@
-<p>dashboard works!</p>
+<div class="container_fluid main">
+  <div class="row inner_main">
+    <div class="content col-lg-12 col-md-12 col-sm-12 col-xs-12 col-12">
+      <!-- <div class="cntholder" > -->
+        <div class="reveal heading" >
+          <div class="reveal__content">Hello World! </div>
+        </div>
+        <div class="reveal cntbody" >
+          <div class="reveal__content">I am Deep Patadiya, a Fullstack Developer.</div>
+        </div>
+        <div class="reveal cntbody">
+          <div class="reveal__content">
+            Here, you can discover
+            <a class="item1" routerLink="/about">
+              About Me
+              <span class="material-symbols-outlined arw">
+                arrow_forward
+              </span>,
+            </a>
+            dive into my
+            <a class="item2" routerLink="/projects">
+              Projects
+              <span class="material-symbols-outlined arw">
+                arrow_forward
+              </span>,
+            </a>
+            learn about my
+            <a class="item4" routerLink="/experience">
+              Experience
+              <span class="material-symbols-outlined arw">
+                arrow_forward
+              </span>
+            </a>
+            and can also
+          </div>
+        </div>
+        <div class="reveal cntbody">
+          <div class="reveal__content">
+            <span class="item5" href="#">
+              Contact Me using my
+            </span>
+            <span class="email" [cdkCopyToClipboard]="'deeppatadiya24@gmail.com'"
+            style="cursor: copy;" (click)="onshow()">
+              <span class="material-symbols-outlined emailcpyicon">
+                content_copy
+              </span>
+              Email.
+              <div *ngIf="!show" class="alert alert-success" role="alert">
+                Click to copy
+              </div>
+              <div *ngIf="show" class="alert alert-success" role="alert">
+                Copied!
+              </div>
+            </span>
+            <br>
+            <span>
+              Here is my <span class="email" (click)="downloadResume()"  style="cursor: pointer;" >
+                <span class="material-symbols-outlined rsmdwnicon">
+                  download
+                </span>
+                Resume.
+              </span>
+            </span>
+          </div>
+        </div>
+        <br>
+      <!-- </div> -->
+    </div>
+  </div>
+</div>
+
+

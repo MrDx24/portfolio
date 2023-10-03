@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap');
+
+.linebr {
+  border: 1px solid white;
+}
+.main {
+  background-color: #181818;
+  width: 100%;
+  min-height: 100vh;
+  max-height: max-content;
+  padding: 0;
+  margin: 0;
+}
+
+.row.inner_main {
+  display: flex;
+  --bs-gutter-x : 0rem;
+  height: 100%;
+  padding: 2rem;
+  color: #fff;
+  align-items: center;;
+  justify-content: center;
+}
+
+.content  {
+  color: #fff;
+  margin-top: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+  font-size: 2rem;
+  width: 100%;
+}
+
+
+.title {
+  display: flex;
+  --bs-gutter-x : 0rem;
+  height: 100%;
+  margin-top: 50px;
+  padding: 1rem !important;
+  color: #fff;
+  align-items: center;;
+  justify-content: center;
+}
+
+.title_name {
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+}
+
+.title-nav {
+  display: flex;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+.card-holder {
+  padding: 1rem;
+  background-color: transparent;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    padding: 1rem;
+    background-color: #353535;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+  }
+
+.card-title {
+  color: #b3ff00;
+  font-weight: 700;
+}
+.card-subtitle {
+  color: white;
+}
+
+
+a {
+  text-decoration: none;
+  color: #b3ff00;
+  font-weight: 700;
+}
+.arw {
+  display: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:hover .arw {
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+  animation: arwrt 0.5s ease-in-out forwards;
+}
+
+@keyframes arwrt {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(-45deg);
+  }
+}
+
+.reveal__content {
+  transform: translateY(100%);
+  animation: reveal 1.7s cubic-bezier(1, 0, 0.3, 0.9) forwards;
+}
+
+@keyframes reveal {
+  from {
+    transform: translateY(100%); }
+  to {
+    transform: translateY(0); }
+}
+
+.card-title>.reveal__content {
+  animation-delay: 1s;
+}
+
+.card-subtitle>.reveal__content {
+  animation-delay: 1.5s;
+}
+
+.card-text>.reveal__content {
+  animation-delay: 1.9s;
+}
+
+.card:hover {
+  background: #b3ff003a;
+  border : 1px solid #b3ff00;
+}
