@@ -4,8 +4,6 @@ This my web portfolio.
 
 👋 Hello! I'm Deep Patadiya, a passionate Full Stack Web Developer with a knack for turning ideas into user-friendly and visually appealing web applications. My journey in the tech world has been filled with diverse experiences that have honed my skills and ignited my curiosity.
 
-🌐 My professional foundation was laid as a Techno Functional Consultant, allowing me to fine-tune my ability to understand client needs, offer strategic solutions, and work harmoniously within teams. I have a keen aptitude for grasping intricate concepts, a skillset enhanced by my involvement in Oracle Transportation Management (OTM) projects. 
-
 💡 Through various projects, I've honed my skills in frontend and backend technologies, such as HTML, CSS, JavaScript, Angular, Flask, and the MEAN Stack. These projects encompass diverse domains, highlighting my proficiency in creating user-friendly interfaces and robust backend systems. 
 
 📚 My academic journey includes a Bachelor's degree in Computer Engineering, complemented by a Diploma in the same field. I'm well-versed in programming languages like C/C++, Java, and have gained hands-on experience with databases including MySQL and Mongo DB. 
