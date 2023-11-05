@@ -16,7 +16,7 @@ export class DashboardComponent {
   downloadResume() {
     const link = document.createElement('a');
     link.setAttribute('target', '_blank');
-    link.setAttribute('href', '../../assets/images/Deep_Patadiya_Resume.pdf');
+    link.setAttribute('href', '../../assets/images/Deep_Patadiya_Resume1.pdf');
     link.setAttribute('download', 'Deep_Patadiya_Resume.pdf');
     document.body.appendChild(link);
     link.click();
